@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD4CF35F1B69417900B522D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4CF35E1B69417900B522D1 /* AppDelegate.swift */; };
+		FD4CF3611B69417900B522D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4CF3601B69417900B522D1 /* ViewController.swift */; };
+		FD4CF3641B69417900B522D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4CF3621B69417900B522D1 /* Main.storyboard */; };
+		FD4CF3661B69417900B522D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4CF3651B69417900B522D1 /* Images.xcassets */; };
+		FD4CF3691B69417900B522D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD4CF3671B69417900B522D1 /* LaunchScreen.xib */; };
+		FD4CF3751B69417900B522D1 /* Vacation_Tracker_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4CF3741B69417900B522D1 /* Vacation_Tracker_SwiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD4CF36F1B69417900B522D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD4CF3511B69417900B522D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD4CF3581B69417900B522D1;
+			remoteInfo = "Vacation-Tracker-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD4CF3591B69417900B522D1 /* Vacation-Tracker-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vacation-Tracker-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD4CF35D1B69417900B522D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD4CF35E1B69417900B522D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD4CF3601B69417900B522D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD4CF3631B69417900B522D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD4CF3651B69417900B522D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD4CF3681B69417900B522D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FD4CF36E1B69417900B522D1 /* Vacation-Tracker-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vacation-Tracker-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD4CF3731B69417900B522D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD4CF3741B69417900B522D1 /* Vacation_Tracker_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vacation_Tracker_SwiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD4CF3561B69417900B522D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4CF36B1B69417900B522D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD4CF3501B69417900B522D1 = {
+			isa = PBXGroup;
+			children = (
+				FD4CF35B1B69417900B522D1 /* Vacation-Tracker-Swift */,
+				FD4CF3711B69417900B522D1 /* Vacation-Tracker-SwiftTests */,
+				FD4CF35A1B69417900B522D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD4CF35A1B69417900B522D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD4CF3591B69417900B522D1 /* Vacation-Tracker-Swift.app */,
+				FD4CF36E1B69417900B522D1 /* Vacation-Tracker-SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD4CF35B1B69417900B522D1 /* Vacation-Tracker-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				FD4CF35E1B69417900B522D1 /* AppDelegate.swift */,
+				FD4CF3601B69417900B522D1 /* ViewController.swift */,
+				FD4CF3621B69417900B522D1 /* Main.storyboard */,
+				FD4CF3651B69417900B522D1 /* Images.xcassets */,
+				FD4CF3671B69417900B522D1 /* LaunchScreen.xib */,
+				FD4CF35C1B69417900B522D1 /* Supporting Files */,
+			);
+			path = "Vacation-Tracker-Swift";
+			sourceTree = "<group>";
+		};
+		FD4CF35C1B69417900B522D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD4CF35D1B69417900B522D1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD4CF3711B69417900B522D1 /* Vacation-Tracker-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD4CF3741B69417900B522D1 /* Vacation_Tracker_SwiftTests.swift */,
+				FD4CF3721B69417900B522D1 /* Supporting Files */,
+			);
+			path = "Vacation-Tracker-SwiftTests";
+			sourceTree = "<group>";
+		};
+		FD4CF3721B69417900B522D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD4CF3731B69417900B522D1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD4CF3581B69417900B522D1 /* Vacation-Tracker-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD4CF3781B69417900B522D1 /* Build configuration list for PBXNativeTarget "Vacation-Tracker-Swift" */;
+			buildPhases = (
+				FD4CF3551B69417900B522D1 /* Sources */,
+				FD4CF3561B69417900B522D1 /* Frameworks */,
+				FD4CF3571B69417900B522D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vacation-Tracker-Swift";
+			productName = "Vacation-Tracker-Swift";
+			productReference = FD4CF3591B69417900B522D1 /* Vacation-Tracker-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD4CF36D1B69417900B522D1 /* Vacation-Tracker-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD4CF37B1B69417900B522D1 /* Build configuration list for PBXNativeTarget "Vacation-Tracker-SwiftTests" */;
+			buildPhases = (
+				FD4CF36A1B69417900B522D1 /* Sources */,
+				FD4CF36B1B69417900B522D1 /* Frameworks */,
+				FD4CF36C1B69417900B522D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD4CF3701B69417900B522D1 /* PBXTargetDependency */,
+			);
+			name = "Vacation-Tracker-SwiftTests";
+			productName = "Vacation-Tracker-SwiftTests";
+			productReference = FD4CF36E1B69417900B522D1 /* Vacation-Tracker-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD4CF3511B69417900B522D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = SocialRadar;
+				TargetAttributes = {
+					FD4CF3581B69417900B522D1 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FD4CF36D1B69417900B522D1 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FD4CF3581B69417900B522D1;
+					};
+				};
+			};
+			buildConfigurationList = FD4CF3541B69417900B522D1 /* Build configuration list for PBXProject "Vacation-Tracker-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD4CF3501B69417900B522D1;
+			productRefGroup = FD4CF35A1B69417900B522D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD4CF3581B69417900B522D1 /* Vacation-Tracker-Swift */,
+				FD4CF36D1B69417900B522D1 /* Vacation-Tracker-SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD4CF3571B69417900B522D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4CF3641B69417900B522D1 /* Main.storyboard in Resources */,
+				FD4CF3691B69417900B522D1 /* LaunchScreen.xib in Resources */,
+				FD4CF3661B69417900B522D1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4CF36C1B69417900B522D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD4CF3551B69417900B522D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4CF3611B69417900B522D1 /* ViewController.swift in Sources */,
+				FD4CF35F1B69417900B522D1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4CF36A1B69417900B522D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4CF3751B69417900B522D1 /* Vacation_Tracker_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD4CF3701B69417900B522D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD4CF3581B69417900B522D1 /* Vacation-Tracker-Swift */;
+			targetProxy = FD4CF36F1B69417900B522D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD4CF3621B69417900B522D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD4CF3631B69417900B522D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD4CF3671B69417900B522D1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD4CF3681B69417900B522D1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD4CF3761B69417900B522D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD4CF3771B69417900B522D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD4CF3791B69417900B522D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Vacation-Tracker-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD4CF37A1B69417900B522D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Vacation-Tracker-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD4CF37C1B69417900B522D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Vacation-Tracker-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vacation-Tracker-Swift.app/Vacation-Tracker-Swift";
+			};
+			name = Debug;
+		};
+		FD4CF37D1B69417900B522D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Vacation-Tracker-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vacation-Tracker-Swift.app/Vacation-Tracker-Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD4CF3541B69417900B522D1 /* Build configuration list for PBXProject "Vacation-Tracker-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4CF3761B69417900B522D1 /* Debug */,
+				FD4CF3771B69417900B522D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD4CF3781B69417900B522D1 /* Build configuration list for PBXNativeTarget "Vacation-Tracker-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4CF3791B69417900B522D1 /* Debug */,
+				FD4CF37A1B69417900B522D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD4CF37B1B69417900B522D1 /* Build configuration list for PBXNativeTarget "Vacation-Tracker-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4CF37C1B69417900B522D1 /* Debug */,
+				FD4CF37D1B69417900B522D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD4CF3511B69417900B522D1 /* Project object */;
+}
