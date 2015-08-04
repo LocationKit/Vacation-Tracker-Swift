@@ -188,8 +188,8 @@
 			children = (
 				FD4CF3811B6941AF00B522D1 /* VTLKDelegate.swift */,
 				FD4CF3831B6941B600B522D1 /* VTTripHandler.swift */,
-				FD4CF3851B6941BB00B522D1 /* VTTrip.swift */,
 				FD4CF3871B6941C100B522D1 /* VTVisitHandler.swift */,
+				FD4CF3851B6941BB00B522D1 /* VTTrip.swift */,
 				FD4CF3891B6941C700B522D1 /* VTVisit.swift */,
 			);
 			name = LKHandlers;

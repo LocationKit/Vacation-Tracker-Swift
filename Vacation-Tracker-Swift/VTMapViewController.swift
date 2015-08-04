@@ -232,7 +232,7 @@ class VTMapViewController: UIViewController, MKMapViewDelegate {
             ((segue.destinationViewController as! UINavigationController).viewControllers[0] as! VTMapSettingsViewController).setSelectedRow(self.settingsPickerIndex, sender: self)
         }
         else if segue.identifier == "MapToVisitsID" {
-            //segue.destinationViewController.trip = (sender.annotation as! VTTripAnnotation).trip
+            (segue.destinationViewController as! VTVisitListViewController).trip = (sender!.annotation as! VTTripAnnotation).trip
         }
         else if segue.identifier == "MapToVisitDetailID" {
             (segue.destinationViewController as! VTMapVisitDetailViewController).visit = (sender!.annotation as! VTVisitAnnotation).visit!
