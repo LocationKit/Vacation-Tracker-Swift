@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		021EA7A2A820D231F3DA485C /* libPods-Vacation-Tracker-Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 216FA7C9691C41E5B7D6AED8 /* libPods-Vacation-Tracker-Swift.a */; };
+		FD1A9DFC1B6AA3DF00FD5110 /* VTTripViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD1A9DFB1B6AA3DF00FD5110 /* VTTripViewCell.xib */; };
 		FD364F011B6A7A5500429053 /* VTFindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD364F001B6A7A5500429053 /* VTFindViewController.swift */; };
 		FD4CF3661B69417900B522D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4CF3651B69417900B522D1 /* Images.xcassets */; };
 		FD4CF3691B69417900B522D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD4CF3671B69417900B522D1 /* LaunchScreen.xib */; };
@@ -26,6 +27,13 @@
 		FD4CF3981B6950F200B522D1 /* VTMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4CF3971B6950F200B522D1 /* VTMapViewController.swift */; };
 		FD4CF39A1B6A626900B522D1 /* VTMapSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4CF3991B6A626900B522D1 /* VTMapSettingsViewController.swift */; };
 		FD4CF39C1B6A6C4900B522D1 /* VTMapVisitDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4CF39B1B6A6C4900B522D1 /* VTMapVisitDetailViewController.swift */; };
+		FD6DF5681B6AA889008A2133 /* VTVisitViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6DF5671B6AA889008A2133 /* VTVisitViewCell.swift */; };
+		FD6DF56A1B6AA8BE008A2133 /* VTVisitViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD6DF5691B6AA8BE008A2133 /* VTVisitViewCell.xib */; };
+		FD6DF56D1B6AAB55008A2133 /* VTVisitListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6DF56C1B6AAB55008A2133 /* VTVisitListViewController.swift */; };
+		FD6DF56F1B6AC617008A2133 /* VTVisitDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6DF56E1B6AC616008A2133 /* VTVisitDetailViewController.swift */; };
+		FDAA6EE31B71212F006ACE1C /* VTVisitCommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAA6EE21B71212F006ACE1C /* VTVisitCommentsViewController.swift */; };
+		FDAB9BF41B6A97F400A55F59 /* VTTripListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAB9BF31B6A97F400A55F59 /* VTTripListViewController.swift */; };
+		FDAB9BF71B6A9B9D00A55F59 /* VTTripViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAB9BF61B6A9B9D00A55F59 /* VTTripViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +50,7 @@
 		019470569B9660E6B4673346 /* Pods-Vacation-Tracker-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vacation-Tracker-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vacation-Tracker-Swift/Pods-Vacation-Tracker-Swift.release.xcconfig"; sourceTree = "<group>"; };
 		216FA7C9691C41E5B7D6AED8 /* libPods-Vacation-Tracker-Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Vacation-Tracker-Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DBDB082161A8918A286E35 /* Pods-Vacation-Tracker-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vacation-Tracker-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vacation-Tracker-Swift/Pods-Vacation-Tracker-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		FD1A9DFB1B6AA3DF00FD5110 /* VTTripViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VTTripViewCell.xib; sourceTree = "<group>"; };
 		FD364F001B6A7A5500429053 /* VTFindViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTFindViewController.swift; sourceTree = "<group>"; };
 		FD4CF3591B69417900B522D1 /* Vacation-Tracker-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vacation-Tracker-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD4CF35D1B69417900B522D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,6 +74,13 @@
 		FD4CF3971B6950F200B522D1 /* VTMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTMapViewController.swift; sourceTree = "<group>"; };
 		FD4CF3991B6A626900B522D1 /* VTMapSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTMapSettingsViewController.swift; sourceTree = "<group>"; };
 		FD4CF39B1B6A6C4900B522D1 /* VTMapVisitDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTMapVisitDetailViewController.swift; sourceTree = "<group>"; };
+		FD6DF5671B6AA889008A2133 /* VTVisitViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTVisitViewCell.swift; sourceTree = "<group>"; };
+		FD6DF5691B6AA8BE008A2133 /* VTVisitViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VTVisitViewCell.xib; sourceTree = "<group>"; };
+		FD6DF56C1B6AAB55008A2133 /* VTVisitListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTVisitListViewController.swift; sourceTree = "<group>"; };
+		FD6DF56E1B6AC616008A2133 /* VTVisitDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTVisitDetailViewController.swift; sourceTree = "<group>"; };
+		FDAA6EE21B71212F006ACE1C /* VTVisitCommentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTVisitCommentsViewController.swift; sourceTree = "<group>"; };
+		FDAB9BF31B6A97F400A55F59 /* VTTripListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTTripListViewController.swift; sourceTree = "<group>"; };
+		FDAB9BF61B6A9B9D00A55F59 /* VTTripViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTTripViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +148,7 @@
 				FD4CF3901B6942DA00B522D1 /* VTTabBarViewController.swift */,
 				FD4CF38F1B6942BD00B522D1 /* LKHandlers */,
 				FD4CF3941B694CCC00B522D1 /* Map */,
+				FDAB9BF51B6A97FB00A55F59 /* List */,
 				FD4CF38B1B6941D500B522D1 /* Main.storyboard */,
 				FD4CF3651B69417900B522D1 /* Images.xcassets */,
 				FD4CF3671B69417900B522D1 /* LaunchScreen.xib */,
@@ -189,6 +206,37 @@
 				FD4CF3951B694F7600B522D1 /* VTVisitAnnotation.swift */,
 			);
 			name = Map;
+			sourceTree = "<group>";
+		};
+		FD6DF5661B6AA86F008A2133 /* Trip Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FDAB9BF61B6A9B9D00A55F59 /* VTTripViewCell.swift */,
+				FD1A9DFB1B6AA3DF00FD5110 /* VTTripViewCell.xib */,
+			);
+			name = "Trip Cell";
+			sourceTree = "<group>";
+		};
+		FD6DF56B1B6AAA02008A2133 /* Visit Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FD6DF5671B6AA889008A2133 /* VTVisitViewCell.swift */,
+				FD6DF5691B6AA8BE008A2133 /* VTVisitViewCell.xib */,
+			);
+			name = "Visit Cell";
+			sourceTree = "<group>";
+		};
+		FDAB9BF51B6A97FB00A55F59 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				FDAB9BF31B6A97F400A55F59 /* VTTripListViewController.swift */,
+				FD6DF56C1B6AAB55008A2133 /* VTVisitListViewController.swift */,
+				FD6DF56E1B6AC616008A2133 /* VTVisitDetailViewController.swift */,
+				FDAA6EE21B71212F006ACE1C /* VTVisitCommentsViewController.swift */,
+				FD6DF5661B6AA86F008A2133 /* Trip Cell */,
+				FD6DF56B1B6AAA02008A2133 /* Visit Cell */,
+			);
+			name = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,9 +330,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD6DF56A1B6AA8BE008A2133 /* VTVisitViewCell.xib in Resources */,
 				FD4CF38C1B6941D500B522D1 /* Main.storyboard in Resources */,
 				FD4CF3691B69417900B522D1 /* LaunchScreen.xib in Resources */,
 				FD4CF3661B69417900B522D1 /* Images.xcassets in Resources */,
+				FD1A9DFC1B6AA3DF00FD5110 /* VTTripViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +386,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD364F011B6A7A5500429053 /* VTFindViewController.swift in Sources */,
+				FDAA6EE31B71212F006ACE1C /* VTVisitCommentsViewController.swift in Sources */,
+				FDAB9BF41B6A97F400A55F59 /* VTTripListViewController.swift in Sources */,
+				FD6DF56D1B6AAB55008A2133 /* VTVisitListViewController.swift in Sources */,
 				FD4CF3881B6941C100B522D1 /* VTVisitHandler.swift in Sources */,
+				FDAB9BF71B6A9B9D00A55F59 /* VTTripViewCell.swift in Sources */,
+				FD6DF5681B6AA889008A2133 /* VTVisitViewCell.swift in Sources */,
 				FD4CF3861B6941BB00B522D1 /* VTTrip.swift in Sources */,
 				FD4CF3841B6941B600B522D1 /* VTTripHandler.swift in Sources */,
 				FD4CF3801B69419100B522D1 /* AppDelegate.swift in Sources */,
@@ -348,6 +403,7 @@
 				FD4CF39A1B6A626900B522D1 /* VTMapSettingsViewController.swift in Sources */,
 				FD4CF3911B6942DA00B522D1 /* VTTabBarViewController.swift in Sources */,
 				FD4CF3981B6950F200B522D1 /* VTMapViewController.swift in Sources */,
+				FD6DF56F1B6AC617008A2133 /* VTVisitDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +526,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Vacation-Tracker-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Vacation-Tracker-Swift/Vacation-Tracker-Swift-Bridging-Header.h";
@@ -485,6 +542,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Vacation-Tracker-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Vacation-Tracker-Swift/Vacation-Tracker-Swift-Bridging-Header.h";

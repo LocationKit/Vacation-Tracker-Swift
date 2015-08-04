@@ -7,173 +7,173 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13CE470D6C878C75D4D18B0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE91DF9592A29E6E95F385D /* Foundation.framework */; };
-		28A6CADB26D5E2C3C386A020 /* OnboardingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BF41F4E9057EA82FD734CBE /* OnboardingViewController.h */; };
-		61D3201244EA2C9F20C5DE18 /* Pods-Vacation-Tracker-Swift-Onboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 099664F7D77CF87C6C5C70D3 /* Pods-Vacation-Tracker-Swift-Onboard-dummy.m */; };
-		63A4073E56F6ECDEDC5B6797 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE91DF9592A29E6E95F385D /* Foundation.framework */; };
-		AE905229A837A84195612870 /* OnboardingContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5537658AEAAD20563D06BDB4 /* OnboardingContentViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		C5B4528AF89484C17AED7C6C /* OnboardingContentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BAB8F39429D2FB2D341624A0 /* OnboardingContentViewController.h */; };
-		CEA024705BA5E6273D190AE9 /* Pods-Vacation-Tracker-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD9D5DB598D1DCFCE02A49 /* Pods-Vacation-Tracker-Swift-dummy.m */; };
-		F04F3FF81ADD61C9A944DF7E /* OnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E13E3B126B3001ECF3AA56E1 /* OnboardingViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		09EC5768CDECC9D03AAA9C3A /* OnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 956A694B2B2A92324E19309B /* OnboardingViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5FE8BCF5D2189FFCE58675CF /* OnboardingContentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 90F40BEF94ACF927CB639A3F /* OnboardingContentViewController.h */; };
+		8D294F3992F09B1F283293CE /* OnboardingContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A60585FD9878082DFC6EEB /* OnboardingContentViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9DC8BBBB0D642B5D95FDFFD7 /* OnboardingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E813530F4905388594BBB5EB /* OnboardingViewController.h */; };
+		BEB4607331D4A93865C3BBD5 /* Pods-Vacation-Tracker-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA513D261C3D46AFCD0A864 /* Pods-Vacation-Tracker-Swift-dummy.m */; };
+		E02A0D6A532589FB50BA7A72 /* Pods-Vacation-Tracker-Swift-Onboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1837148A9F65000BE69479D /* Pods-Vacation-Tracker-Swift-Onboard-dummy.m */; };
+		F1D2E8FD8C9BFCC0A287DE66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5703FFC5F3FE790C738ADB3 /* Foundation.framework */; };
+		F4FC6C07421599987E72A830 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5703FFC5F3FE790C738ADB3 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		646D9F6D0A0B016A910A562E /* PBXContainerItemProxy */ = {
+		1906A0A38434CEF745CAC6C9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F2345D8DBA5986608154F6E5 /* Project object */;
+			containerPortal = A5A25FE550C9496A2CECF483 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EE6AD86904E43EF78A1A10A9;
+			remoteGlobalIDString = 128FB7EA22964E3AD9B54DB9;
 			remoteInfo = "Pods-Vacation-Tracker-Swift-Onboard";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		037A8E60248C58199A28A4C4 /* Pods-Vacation-Tracker-Swift-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Vacation-Tracker-Swift-environment.h"; sourceTree = "<group>"; };
-		07EC4876BE50510877667550 /* LocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LocationKit.framework; sourceTree = "<group>"; };
-		099664F7D77CF87C6C5C70D3 /* Pods-Vacation-Tracker-Swift-Onboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Vacation-Tracker-Swift-Onboard-dummy.m"; sourceTree = "<group>"; };
-		09AB6525D132E947419EF4D9 /* libPods-Vacation-Tracker-Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Vacation-Tracker-Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BF41F4E9057EA82FD734CBE /* OnboardingViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OnboardingViewController.h; path = "Objective-C/Onboard/OnboardingViewController.h"; sourceTree = "<group>"; };
-		2A99A63E95CF26A2FC1AC353 /* Pods-Vacation-Tracker-Swift-Onboard-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vacation-Tracker-Swift-Onboard-Private.xcconfig"; sourceTree = "<group>"; };
-		383BC7BA5546B54F04FF91AF /* Pods-Vacation-Tracker-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vacation-Tracker-Swift.release.xcconfig"; sourceTree = "<group>"; };
-		3BE91DF9592A29E6E95F385D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		475E2B618A85710E1CBDCFFF /* Pods-Vacation-Tracker-Swift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Vacation-Tracker-Swift-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5537658AEAAD20563D06BDB4 /* OnboardingContentViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OnboardingContentViewController.m; path = "Objective-C/Onboard/OnboardingContentViewController.m"; sourceTree = "<group>"; };
-		7C88CB2D4046C2CC230A5B33 /* libPods-Vacation-Tracker-Swift-Onboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Vacation-Tracker-Swift-Onboard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F66495D14B8737451588707 /* Pods-Vacation-Tracker-Swift-Onboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vacation-Tracker-Swift-Onboard.xcconfig"; sourceTree = "<group>"; };
-		84CD9D5DB598D1DCFCE02A49 /* Pods-Vacation-Tracker-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Vacation-Tracker-Swift-dummy.m"; sourceTree = "<group>"; };
-		AA8456BDA330533C33A70AF7 /* Pods-Vacation-Tracker-Swift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Vacation-Tracker-Swift-resources.sh"; sourceTree = "<group>"; };
-		BAB8F39429D2FB2D341624A0 /* OnboardingContentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OnboardingContentViewController.h; path = "Objective-C/Onboard/OnboardingContentViewController.h"; sourceTree = "<group>"; };
-		D1A083A5428D54F28EE12BAB /* Pods-Vacation-Tracker-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vacation-Tracker-Swift.debug.xcconfig"; sourceTree = "<group>"; };
-		E13E3B126B3001ECF3AA56E1 /* OnboardingViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OnboardingViewController.m; path = "Objective-C/Onboard/OnboardingViewController.m"; sourceTree = "<group>"; };
-		F2385F3CBD3C5EFA34A4738F /* Pods-Vacation-Tracker-Swift-Onboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Vacation-Tracker-Swift-Onboard-prefix.pch"; sourceTree = "<group>"; };
-		F79FF5321F0B5E6D22B794C0 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		FEB59A02E4C6650B1CA8B94A /* Pods-Vacation-Tracker-Swift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vacation-Tracker-Swift-acknowledgements.plist"; sourceTree = "<group>"; };
+		0E679CCD90937402DCACEABF /* Pods-Vacation-Tracker-Swift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Vacation-Tracker-Swift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		150B87564836DC468CB6AD96 /* Pods-Vacation-Tracker-Swift-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Vacation-Tracker-Swift-environment.h"; sourceTree = "<group>"; };
+		2A681C56DCFA07817C9CB0EC /* libPods-Vacation-Tracker-Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Vacation-Tracker-Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D0CBEEC821C3790DB1EF89 /* Pods-Vacation-Tracker-Swift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vacation-Tracker-Swift-acknowledgements.plist"; sourceTree = "<group>"; };
+		48A60585FD9878082DFC6EEB /* OnboardingContentViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OnboardingContentViewController.m; path = "Objective-C/Onboard/OnboardingContentViewController.m"; sourceTree = "<group>"; };
+		54E026AA374DEE5CFFDD14FF /* libPods-Vacation-Tracker-Swift-Onboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Vacation-Tracker-Swift-Onboard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		747D8896F2A2382AD6716F32 /* Pods-Vacation-Tracker-Swift-Onboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Vacation-Tracker-Swift-Onboard-prefix.pch"; sourceTree = "<group>"; };
+		771F12BE3173B0383336FC8B /* Pods-Vacation-Tracker-Swift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Vacation-Tracker-Swift-resources.sh"; sourceTree = "<group>"; };
+		90F40BEF94ACF927CB639A3F /* OnboardingContentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OnboardingContentViewController.h; path = "Objective-C/Onboard/OnboardingContentViewController.h"; sourceTree = "<group>"; };
+		937AF1518B662BFE40C929D1 /* Pods-Vacation-Tracker-Swift-Onboard-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vacation-Tracker-Swift-Onboard-Private.xcconfig"; sourceTree = "<group>"; };
+		956A694B2B2A92324E19309B /* OnboardingViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OnboardingViewController.m; path = "Objective-C/Onboard/OnboardingViewController.m"; sourceTree = "<group>"; };
+		B21480CCF82262DF05A4C16D /* Pods-Vacation-Tracker-Swift-Onboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vacation-Tracker-Swift-Onboard.xcconfig"; sourceTree = "<group>"; };
+		BEDC360EE744D62F040A2F96 /* Pods-Vacation-Tracker-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vacation-Tracker-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		CDA513D261C3D46AFCD0A864 /* Pods-Vacation-Tracker-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Vacation-Tracker-Swift-dummy.m"; sourceTree = "<group>"; };
+		D071C0CDD2D8DB731EED6DE4 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D1837148A9F65000BE69479D /* Pods-Vacation-Tracker-Swift-Onboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Vacation-Tracker-Swift-Onboard-dummy.m"; sourceTree = "<group>"; };
+		D759BDC394B704C7CD94496B /* Pods-Vacation-Tracker-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vacation-Tracker-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		E5703FFC5F3FE790C738ADB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E813530F4905388594BBB5EB /* OnboardingViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OnboardingViewController.h; path = "Objective-C/Onboard/OnboardingViewController.h"; sourceTree = "<group>"; };
+		E8BBA31E780AADF21E1D380D /* LocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LocationKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3513A8C68FA1113D45F9AA83 /* Frameworks */ = {
+		1DC1D2D6CCA982BE31D7BBF5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63A4073E56F6ECDEDC5B6797 /* Foundation.framework in Frameworks */,
+				F4FC6C07421599987E72A830 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A189B321582BBFDDD225E7A0 /* Frameworks */ = {
+		AF1B4B689C16F34B83E62D99 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13CE470D6C878C75D4D18B0E /* Foundation.framework in Frameworks */,
+				F1D2E8FD8C9BFCC0A287DE66 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		12424EF2079FE5A2B66DFE3C /* Onboard */ = {
+		060431285F5E00764A2E8011 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BAB8F39429D2FB2D341624A0 /* OnboardingContentViewController.h */,
-				5537658AEAAD20563D06BDB4 /* OnboardingContentViewController.m */,
-				0BF41F4E9057EA82FD734CBE /* OnboardingViewController.h */,
-				E13E3B126B3001ECF3AA56E1 /* OnboardingViewController.m */,
-				D390E47C888227E46564DAE5 /* Support Files */,
-			);
-			path = Onboard;
-			sourceTree = "<group>";
-		};
-		1FAFDF035B4A74C2D0BA0A3E /* Pods-Vacation-Tracker-Swift */ = {
-			isa = PBXGroup;
-			children = (
-				475E2B618A85710E1CBDCFFF /* Pods-Vacation-Tracker-Swift-acknowledgements.markdown */,
-				FEB59A02E4C6650B1CA8B94A /* Pods-Vacation-Tracker-Swift-acknowledgements.plist */,
-				84CD9D5DB598D1DCFCE02A49 /* Pods-Vacation-Tracker-Swift-dummy.m */,
-				037A8E60248C58199A28A4C4 /* Pods-Vacation-Tracker-Swift-environment.h */,
-				AA8456BDA330533C33A70AF7 /* Pods-Vacation-Tracker-Swift-resources.sh */,
-				D1A083A5428D54F28EE12BAB /* Pods-Vacation-Tracker-Swift.debug.xcconfig */,
-				383BC7BA5546B54F04FF91AF /* Pods-Vacation-Tracker-Swift.release.xcconfig */,
-			);
-			name = "Pods-Vacation-Tracker-Swift";
-			path = "Target Support Files/Pods-Vacation-Tracker-Swift";
-			sourceTree = "<group>";
-		};
-		3297F41AE762A4104D2B053C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				09AB6525D132E947419EF4D9 /* libPods-Vacation-Tracker-Swift.a */,
-				7C88CB2D4046C2CC230A5B33 /* libPods-Vacation-Tracker-Swift-Onboard.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		446CBD1942DA14470D841405 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BCAB5E6D37DA1783D924223B /* LocationKit */,
-				12424EF2079FE5A2B66DFE3C /* Onboard */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		5BD62A200526CB492A82FE4A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F9BDA4F03552F103B4111651 /* iOS */,
+				E22829DD2EA99AAA12F7C2D5 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		636E7046C352EA05E40CCF54 /* Frameworks */ = {
+		43568B11986EAA16921F4644 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				07EC4876BE50510877667550 /* LocationKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BCAB5E6D37DA1783D924223B /* LocationKit */ = {
-			isa = PBXGroup;
-			children = (
-				636E7046C352EA05E40CCF54 /* Frameworks */,
-			);
-			path = LocationKit;
-			sourceTree = "<group>";
-		};
-		D390E47C888227E46564DAE5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7F66495D14B8737451588707 /* Pods-Vacation-Tracker-Swift-Onboard.xcconfig */,
-				2A99A63E95CF26A2FC1AC353 /* Pods-Vacation-Tracker-Swift-Onboard-Private.xcconfig */,
-				099664F7D77CF87C6C5C70D3 /* Pods-Vacation-Tracker-Swift-Onboard-dummy.m */,
-				F2385F3CBD3C5EFA34A4738F /* Pods-Vacation-Tracker-Swift-Onboard-prefix.pch */,
+				B21480CCF82262DF05A4C16D /* Pods-Vacation-Tracker-Swift-Onboard.xcconfig */,
+				937AF1518B662BFE40C929D1 /* Pods-Vacation-Tracker-Swift-Onboard-Private.xcconfig */,
+				D1837148A9F65000BE69479D /* Pods-Vacation-Tracker-Swift-Onboard-dummy.m */,
+				747D8896F2A2382AD6716F32 /* Pods-Vacation-Tracker-Swift-Onboard-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-Vacation-Tracker-Swift-Onboard";
 			sourceTree = "<group>";
 		};
-		EC88292BEB310536775AD5A9 = {
+		4AF2866999A583502A68D5F0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F79FF5321F0B5E6D22B794C0 /* Podfile */,
-				5BD62A200526CB492A82FE4A /* Frameworks */,
-				446CBD1942DA14470D841405 /* Pods */,
-				3297F41AE762A4104D2B053C /* Products */,
-				F2011806E24F03A419AC6955 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		F2011806E24F03A419AC6955 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1FAFDF035B4A74C2D0BA0A3E /* Pods-Vacation-Tracker-Swift */,
+				5E303356E413AECABF283A5D /* Pods-Vacation-Tracker-Swift */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F9BDA4F03552F103B4111651 /* iOS */ = {
+		5E303356E413AECABF283A5D /* Pods-Vacation-Tracker-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				3BE91DF9592A29E6E95F385D /* Foundation.framework */,
+				0E679CCD90937402DCACEABF /* Pods-Vacation-Tracker-Swift-acknowledgements.markdown */,
+				35D0CBEEC821C3790DB1EF89 /* Pods-Vacation-Tracker-Swift-acknowledgements.plist */,
+				CDA513D261C3D46AFCD0A864 /* Pods-Vacation-Tracker-Swift-dummy.m */,
+				150B87564836DC468CB6AD96 /* Pods-Vacation-Tracker-Swift-environment.h */,
+				771F12BE3173B0383336FC8B /* Pods-Vacation-Tracker-Swift-resources.sh */,
+				D759BDC394B704C7CD94496B /* Pods-Vacation-Tracker-Swift.debug.xcconfig */,
+				BEDC360EE744D62F040A2F96 /* Pods-Vacation-Tracker-Swift.release.xcconfig */,
+			);
+			name = "Pods-Vacation-Tracker-Swift";
+			path = "Target Support Files/Pods-Vacation-Tracker-Swift";
+			sourceTree = "<group>";
+		};
+		6809D371DA71770E8D7D69DD = {
+			isa = PBXGroup;
+			children = (
+				D071C0CDD2D8DB731EED6DE4 /* Podfile */,
+				060431285F5E00764A2E8011 /* Frameworks */,
+				93AE9D32929C10CB076D798F /* Pods */,
+				A547A21982AB71164E953758 /* Products */,
+				4AF2866999A583502A68D5F0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		93AE9D32929C10CB076D798F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7A999AF4354A8C63D3B7D3D /* LocationKit */,
+				C89C570544D64D5EE3FDACF9 /* Onboard */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A547A21982AB71164E953758 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A681C56DCFA07817C9CB0EC /* libPods-Vacation-Tracker-Swift.a */,
+				54E026AA374DEE5CFFDD14FF /* libPods-Vacation-Tracker-Swift-Onboard.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7A999AF4354A8C63D3B7D3D /* LocationKit */ = {
+			isa = PBXGroup;
+			children = (
+				D930B932E69872A4314CF797 /* Frameworks */,
+			);
+			path = LocationKit;
+			sourceTree = "<group>";
+		};
+		C89C570544D64D5EE3FDACF9 /* Onboard */ = {
+			isa = PBXGroup;
+			children = (
+				90F40BEF94ACF927CB639A3F /* OnboardingContentViewController.h */,
+				48A60585FD9878082DFC6EEB /* OnboardingContentViewController.m */,
+				E813530F4905388594BBB5EB /* OnboardingViewController.h */,
+				956A694B2B2A92324E19309B /* OnboardingViewController.m */,
+				43568B11986EAA16921F4644 /* Support Files */,
+			);
+			path = Onboard;
+			sourceTree = "<group>";
+		};
+		D930B932E69872A4314CF797 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8BBA31E780AADF21E1D380D /* LocationKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E22829DD2EA99AAA12F7C2D5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E5703FFC5F3FE790C738ADB3 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -181,42 +181,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2D121A0EB8EFB9A6D7181B80 /* Headers */ = {
+		4ECBF603AD7D8F34CA613C93 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5B4528AF89484C17AED7C6C /* OnboardingContentViewController.h in Headers */,
-				28A6CADB26D5E2C3C386A020 /* OnboardingViewController.h in Headers */,
+				5FE8BCF5D2189FFCE58675CF /* OnboardingContentViewController.h in Headers */,
+				9DC8BBBB0D642B5D95FDFFD7 /* OnboardingViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		03BB4E8F335F79D3728BF1F8 /* Pods-Vacation-Tracker-Swift */ = {
+		128FB7EA22964E3AD9B54DB9 /* Pods-Vacation-Tracker-Swift-Onboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 963B61F687FF086F2C964192 /* Build configuration list for PBXNativeTarget "Pods-Vacation-Tracker-Swift" */;
+			buildConfigurationList = 14A29A20B17CE07C35CE75C1 /* Build configuration list for PBXNativeTarget "Pods-Vacation-Tracker-Swift-Onboard" */;
 			buildPhases = (
-				2CAD641D413115B5889665E7 /* Sources */,
-				3513A8C68FA1113D45F9AA83 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6B700E8855B3CD8AD5998403 /* PBXTargetDependency */,
-			);
-			name = "Pods-Vacation-Tracker-Swift";
-			productName = "Pods-Vacation-Tracker-Swift";
-			productReference = 09AB6525D132E947419EF4D9 /* libPods-Vacation-Tracker-Swift.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		EE6AD86904E43EF78A1A10A9 /* Pods-Vacation-Tracker-Swift-Onboard */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6177F918C8F28ABBAF65DADE /* Build configuration list for PBXNativeTarget "Pods-Vacation-Tracker-Swift-Onboard" */;
-			buildPhases = (
-				5B2BA8B14637841E2216F01A /* Sources */,
-				A189B321582BBFDDD225E7A0 /* Frameworks */,
-				2D121A0EB8EFB9A6D7181B80 /* Headers */,
+				2C3932EA2D213A2C0983A9B9 /* Sources */,
+				1DC1D2D6CCA982BE31D7BBF5 /* Frameworks */,
+				4ECBF603AD7D8F34CA613C93 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -224,67 +207,150 @@
 			);
 			name = "Pods-Vacation-Tracker-Swift-Onboard";
 			productName = "Pods-Vacation-Tracker-Swift-Onboard";
-			productReference = 7C88CB2D4046C2CC230A5B33 /* libPods-Vacation-Tracker-Swift-Onboard.a */;
+			productReference = 54E026AA374DEE5CFFDD14FF /* libPods-Vacation-Tracker-Swift-Onboard.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9294A38BC026DBF769E1820C /* Pods-Vacation-Tracker-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE17E68C21413CC2FAF57DAD /* Build configuration list for PBXNativeTarget "Pods-Vacation-Tracker-Swift" */;
+			buildPhases = (
+				13D6E3F59DB12386C1B11866 /* Sources */,
+				AF1B4B689C16F34B83E62D99 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4FC38C7A74CB6910A72997D /* PBXTargetDependency */,
+			);
+			name = "Pods-Vacation-Tracker-Swift";
+			productName = "Pods-Vacation-Tracker-Swift";
+			productReference = 2A681C56DCFA07817C9CB0EC /* libPods-Vacation-Tracker-Swift.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F2345D8DBA5986608154F6E5 /* Project object */ = {
+		A5A25FE550C9496A2CECF483 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = 1E51494E6537CC8AF32DF84A /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = DD1288EB13427DFF3A84881E /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = EC88292BEB310536775AD5A9;
-			productRefGroup = 3297F41AE762A4104D2B053C /* Products */;
+			mainGroup = 6809D371DA71770E8D7D69DD;
+			productRefGroup = A547A21982AB71164E953758 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03BB4E8F335F79D3728BF1F8 /* Pods-Vacation-Tracker-Swift */,
-				EE6AD86904E43EF78A1A10A9 /* Pods-Vacation-Tracker-Swift-Onboard */,
+				9294A38BC026DBF769E1820C /* Pods-Vacation-Tracker-Swift */,
+				128FB7EA22964E3AD9B54DB9 /* Pods-Vacation-Tracker-Swift-Onboard */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2CAD641D413115B5889665E7 /* Sources */ = {
+		13D6E3F59DB12386C1B11866 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA024705BA5E6273D190AE9 /* Pods-Vacation-Tracker-Swift-dummy.m in Sources */,
+				BEB4607331D4A93865C3BBD5 /* Pods-Vacation-Tracker-Swift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B2BA8B14637841E2216F01A /* Sources */ = {
+		2C3932EA2D213A2C0983A9B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE905229A837A84195612870 /* OnboardingContentViewController.m in Sources */,
-				F04F3FF81ADD61C9A944DF7E /* OnboardingViewController.m in Sources */,
-				61D3201244EA2C9F20C5DE18 /* Pods-Vacation-Tracker-Swift-Onboard-dummy.m in Sources */,
+				8D294F3992F09B1F283293CE /* OnboardingContentViewController.m in Sources */,
+				09EC5768CDECC9D03AAA9C3A /* OnboardingViewController.m in Sources */,
+				E02A0D6A532589FB50BA7A72 /* Pods-Vacation-Tracker-Swift-Onboard-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6B700E8855B3CD8AD5998403 /* PBXTargetDependency */ = {
+		C4FC38C7A74CB6910A72997D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Vacation-Tracker-Swift-Onboard";
-			target = EE6AD86904E43EF78A1A10A9 /* Pods-Vacation-Tracker-Swift-Onboard */;
-			targetProxy = 646D9F6D0A0B016A910A562E /* PBXContainerItemProxy */;
+			target = 128FB7EA22964E3AD9B54DB9 /* Pods-Vacation-Tracker-Swift-Onboard */;
+			targetProxy = 1906A0A38434CEF745CAC6C9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0524E4218D679C26CB81239C /* Debug */ = {
+		1E3E13C9594B712DD01FCE9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D759BDC394B704C7CD94496B /* Pods-Vacation-Tracker-Swift.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		87F3F6CABDEFE084528B873E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF4DD6BC9FF3A4AA433F7D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 937AF1518B662BFE40C929D1 /* Pods-Vacation-Tracker-Swift-Onboard-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Vacation-Tracker-Swift-Onboard/Pods-Vacation-Tracker-Swift-Onboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CB62843EA837A75C693871E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -316,85 +382,19 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		0A9F8CEE20E775D579494EE7 /* Release */ = {
+		CC210FC536140A9BE6E64B93 /* Release */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		4DDF05DB25006748C061C1E8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A99A63E95CF26A2FC1AC353 /* Pods-Vacation-Tracker-Swift-Onboard-Private.xcconfig */;
+			baseConfigurationReference = BEDC360EE744D62F040A2F96 /* Pods-Vacation-Tracker-Swift.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Vacation-Tracker-Swift-Onboard/Pods-Vacation-Tracker-Swift-Onboard-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		5032758782135DF452990AC7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A99A63E95CF26A2FC1AC353 /* Pods-Vacation-Tracker-Swift-Onboard-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Vacation-Tracker-Swift-Onboard/Pods-Vacation-Tracker-Swift-Onboard-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		BC1B9550D9045FDC748EBD8C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 383BC7BA5546B54F04FF91AF /* Pods-Vacation-Tracker-Swift.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -405,53 +405,53 @@
 			};
 			name = Release;
 		};
-		DB6F6B21596C094020446A51 /* Debug */ = {
+		EB9B5FC122B2F97DE741498F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1A083A5428D54F28EE12BAB /* Pods-Vacation-Tracker-Swift.debug.xcconfig */;
+			baseConfigurationReference = 937AF1518B662BFE40C929D1 /* Pods-Vacation-Tracker-Swift-Onboard-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Vacation-Tracker-Swift-Onboard/Pods-Vacation-Tracker-Swift-Onboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1E51494E6537CC8AF32DF84A /* Build configuration list for PBXProject "Pods" */ = {
+		14A29A20B17CE07C35CE75C1 /* Build configuration list for PBXNativeTarget "Pods-Vacation-Tracker-Swift-Onboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0524E4218D679C26CB81239C /* Debug */,
-				0A9F8CEE20E775D579494EE7 /* Release */,
+				AF4DD6BC9FF3A4AA433F7D61 /* Debug */,
+				EB9B5FC122B2F97DE741498F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6177F918C8F28ABBAF65DADE /* Build configuration list for PBXNativeTarget "Pods-Vacation-Tracker-Swift-Onboard" */ = {
+		DD1288EB13427DFF3A84881E /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DDF05DB25006748C061C1E8 /* Debug */,
-				5032758782135DF452990AC7 /* Release */,
+				CB62843EA837A75C693871E6 /* Debug */,
+				87F3F6CABDEFE084528B873E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		963B61F687FF086F2C964192 /* Build configuration list for PBXNativeTarget "Pods-Vacation-Tracker-Swift" */ = {
+		FE17E68C21413CC2FAF57DAD /* Build configuration list for PBXNativeTarget "Pods-Vacation-Tracker-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB6F6B21596C094020446A51 /* Debug */,
-				BC1B9550D9045FDC748EBD8C /* Release */,
+				1E3E13C9594B712DD01FCE9E /* Debug */,
+				CC210FC536140A9BE6E64B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F2345D8DBA5986608154F6E5 /* Project object */;
+	rootObject = A5A25FE550C9496A2CECF483 /* Project object */;
 }

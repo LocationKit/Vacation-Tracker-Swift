@@ -10,7 +10,7 @@ import Foundation
 
 class VTLKDelegate: NSObject, LocationKitDelegate {
     func locationKit(locationKit: LocationKit!, didUpdateLocation location: CLLocation!) {
-        println("Location update");
+        println("Location update at <\(location.coordinate.latitude), \(location.coordinate.longitude)>");
         
         LocationKit.sharedInstance().getCurrentPlaceWithHandler { (place, error) -> Void in
             if (error == nil) {

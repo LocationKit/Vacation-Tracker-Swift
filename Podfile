@@ -4,7 +4,7 @@
 target 'Vacation-Tracker-Swift' do
 
     pod 'LocationKit', '~> 2.0.0'
-    pod 'Onboard'
+    pod 'Onboard', '= 2.1.5'
 
 end
 

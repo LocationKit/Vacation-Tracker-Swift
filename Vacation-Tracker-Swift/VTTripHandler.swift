@@ -10,12 +10,12 @@ import Foundation
 
 var center = NSNotificationCenter.defaultCenter()
 
+struct VTNotifications {
+    static let TripsChanged = "VTTripsChangedNotification"
+    static let VisitsChanged = "VTVisitsChangedNotification"
+}
+
 class VTTripHandler: NSObject {
-    struct VTNotifications {
-        static let TripsChanged = "VTTripsChangedNotification"
-        static let VisitsChanged = "VTVisitsChangedNotification"
-    }
-    
     static var trips: NSMutableArray = NSMutableArray()
     static var tripNames: NSMutableArray = NSMutableArray()
     

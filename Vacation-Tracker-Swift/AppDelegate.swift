@@ -19,6 +19,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIAlertViewDelegate {
         VTTripHandler.loadTripData()
         let apiToken = "d735e0f01bef83d5"
         LocationKit.sharedInstance().startWithApiToken(apiToken, andDelegate: locationDelegate);
+        /*LocationKit.sharedInstance().getPriorVisits( { (visits, error) -> Void in
+            if error == nil {
+                NSLog("%@", visits)
+            }
+        })*/
         //self.checkAlwaysAuthorization();
         // Override point for customization after application launch.
         return true

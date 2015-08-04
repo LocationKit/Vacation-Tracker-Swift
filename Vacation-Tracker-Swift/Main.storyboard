@@ -276,7 +276,7 @@
         <!--Trips-->
         <scene sceneID="WlM-TH-gNf">
             <objects>
-                <viewController id="GDs-20-rPL" customClass="VTTripListViewController" sceneMemberID="viewController">
+                <viewController id="GDs-20-rPL" customClass="VTTripListViewController" customModule="Vacation_Tracker_Swift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ot4-Gy-wu3">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -295,7 +295,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Trips" id="kGf-es-jmI"/>
                     <connections>
-                        <outlet property="tableView" destination="wEO-fg-b59" id="jjf-dR-dNo"/>
+                        <outlet property="tableView" destination="wEO-fg-b59" id="qba-WT-0hR"/>
                         <segue destination="pHW-44-aCg" kind="push" identifier="ShowTripVisitsID" id="ulA-EV-Y5E"/>
                     </connections>
                 </viewController>
@@ -306,7 +306,7 @@
         <!--Visits in <trip location>-->
         <scene sceneID="RRE-t5-Iby">
             <objects>
-                <viewController id="pHW-44-aCg" customClass="VTListViewController" sceneMemberID="viewController">
+                <viewController id="pHW-44-aCg" customClass="VTVisitListViewController" customModule="Vacation_Tracker_Swift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XFC-YX-Fgv">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -332,7 +332,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="tableView" destination="N1E-GX-qgf" id="T0r-Iy-lDQ"/>
+                        <outlet property="tableView" destination="N1E-GX-qgf" id="YLh-5v-R92"/>
                         <segue destination="yAT-P0-jYe" kind="push" identifier="VisitDetailSegueID" id="7Pz-0z-d1K"/>
                     </connections>
                 </viewController>
@@ -343,7 +343,7 @@
         <!--Visit to <trip location>-->
         <scene sceneID="JVm-R6-A7v">
             <objects>
-                <viewController id="yAT-P0-jYe" customClass="VisitDetailViewController" sceneMemberID="viewController">
+                <viewController id="yAT-P0-jYe" customClass="VTVisitDetailViewController" customModule="Vacation_Tracker_Swift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Q7b-LT-HA3">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -422,11 +422,11 @@
                                 <rect key="frame" x="209.99999971950751" y="474" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                                 <connections>
-                                    <action selector="stepperChanged:" destination="yAT-P0-jYe" eventType="valueChanged" id="ttp-IO-M1b"/>
+                                    <action selector="didTapStepper:" destination="yAT-P0-jYe" eventType="valueChanged" id="Nza-9h-3YI"/>
                                 </connections>
                             </stepper>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rating:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QLw-Cc-HyL">
-                                <rect key="frame" x="16" y="478.00000107309381" width="92" height="21"/>
+                                <rect key="frame" x="16" y="478.00000535654249" width="92" height="21"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -446,21 +446,20 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="compose" id="sUx-i7-gZO">
                             <color key="tintColor" red="0.97647058819999999" green="0.33333333329999998" blue="0.1019607843" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
-                                <action selector="didTapCommnentsButton:" destination="yAT-P0-jYe" id="D3f-Iz-MOA"/>
                                 <segue destination="cRa-M3-SqE" kind="modal" identifier="DetailsToCommentsSegueID" modalTransitionStyle="coverVertical" id="8YL-oj-Dyf"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="address_0" destination="Jjf-cq-pbk" id="n4X-ig-Nf8"/>
-                        <outlet property="address_1" destination="bIT-8O-fzX" id="j1I-9x-3fZ"/>
-                        <outlet property="categoryLabel" destination="S1x-hG-G5y" id="BKE-6D-FF3"/>
-                        <outlet property="dateLabel" destination="z11-Cy-GpL" id="77K-ne-M85"/>
-                        <outlet property="localityLabel" destination="5Sg-ci-Nyg" id="btG-7E-kS7"/>
-                        <outlet property="mapView" destination="Q8J-6l-TuF" id="N4L-Ae-f39"/>
-                        <outlet property="ratingLabel" destination="QLw-Cc-HyL" id="3Z4-kv-hVz"/>
-                        <outlet property="ratingStepper" destination="Jek-st-IFE" id="ZEY-fp-kWb"/>
-                        <outlet property="timeLabel" destination="MnJ-BI-CJ2" id="eac-nj-WNh"/>
+                        <outlet property="address_0" destination="Jjf-cq-pbk" id="Utb-CF-QSg"/>
+                        <outlet property="address_1" destination="bIT-8O-fzX" id="V8Z-We-DSG"/>
+                        <outlet property="categoryLabel" destination="S1x-hG-G5y" id="ebX-VU-AM5"/>
+                        <outlet property="dateLabel" destination="z11-Cy-GpL" id="QD4-XZ-ki6"/>
+                        <outlet property="localityLabel" destination="5Sg-ci-Nyg" id="BWE-VE-2YR"/>
+                        <outlet property="mapView" destination="Q8J-6l-TuF" id="tOw-kE-zN6"/>
+                        <outlet property="ratingLabel" destination="QLw-Cc-HyL" id="SUw-wg-Ghz"/>
+                        <outlet property="ratingStepper" destination="Jek-st-IFE" id="HeG-J6-vka"/>
+                        <outlet property="timeLabel" destination="MnJ-BI-CJ2" id="fC9-0m-y5b"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i3j-v6-ACW" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -470,7 +469,7 @@
         <!--Comments-->
         <scene sceneID="9JQ-Z2-xPt">
             <objects>
-                <viewController id="bhi-eB-DiU" customClass="VTVisitCommentsViewController" sceneMemberID="viewController">
+                <viewController id="bhi-eB-DiU" customClass="VTVisitCommentsViewController" customModule="Vacation_Tracker_Swift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fhh-X4-V2n">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -493,18 +492,18 @@
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="6fe-ci-vhe">
                             <color key="tintColor" red="0.97647058819999999" green="0.33333333329999998" blue="0.1019607843" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
-                                <action selector="didTapCancel:" destination="bhi-eB-DiU" id="vS3-9m-dV8"/>
+                                <action selector="didTapCancel:" destination="bhi-eB-DiU" id="koT-5s-Bjx"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" style="done" systemItem="done" id="iWD-ep-gXG">
                             <color key="tintColor" red="0.97647058819999999" green="0.33333333329999998" blue="0.1019607843" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
-                                <action selector="didTapDone:" destination="bhi-eB-DiU" id="xlc-7g-Eck"/>
+                                <action selector="didTapDone:" destination="bhi-eB-DiU" id="LiZ-qx-9fj"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="commentsEntry" destination="jxk-Fs-3LT" id="uSR-l8-v1R"/>
+                        <outlet property="commentsEntry" destination="jxk-Fs-3LT" id="Ygp-gA-WwR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w9M-AF-zcA" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -596,7 +595,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="rVk-hF-Qaq"/>
+        <segue reference="ulA-EV-Y5E"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.97647058819999999" green="0.33333333329999998" blue="0.1019607843" alpha="1" colorSpace="calibratedRGB"/>
 </document>
